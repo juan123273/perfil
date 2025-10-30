@@ -1,0 +1,38 @@
+.contenido-estudios {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 14px;
+  font-family: "Segoe UI", Roboto, Arial;
+}
+
+.encabezado { text-align: center; margin-bottom: 11px; }
+.foto_estudios { display:flex; justify-content:center; }
+.Estudio { width:220px; height:220px; border-radius:100%; object-fit:cover; border:2px solid #20046c; }
+
+
+
+.tabla-container { overflow:auto; }
+
+.tabla-horario {
+  width:100%;
+  border-collapse: collapse;
+  background:rgb(255, 255, 255);
+}
+
+/* encabezados con borde grueso */
+.tabla-horario thead th {
+  border: 4px solid #20046c;
+  padding:10px;
+  font-weight:700;
+  background:#fff;
+}
+
+/* celdas con borde como la imagen (grueso) */
+.tabla-horario td {
+  border: 3px solid #20046c;
+  padding: 14px;
+  height: 60px;
+  text-align:center;
+  vertical-align: middle;
+  cursor: pointer;
+}

@@ -1,0 +1,87 @@
+<main class="contenido-contacto">
+  <div class="encabezado-contacto">
+    <h1>Datos por las cuales nos puede contactar</h1>
+  </div>
+
+  <div class="contacto-container">
+    <div class="formulario-contacto">
+      <h2>Puedes enviar mensajes atraves de su correo</h2>
+      <form>
+        <div class="form-nombre">
+         <label for="nombre">Nombre y Apellido</label>
+         <input 
+         type="text" 
+         id="nombre" 
+         name="nombre" 
+         placeholder="tu nombre y apellido"
+         required
+         pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ ]+$"
+         title="Solo se permiten letras y espacios">
+        </div>
+
+        <div class="form-gmail">
+          <label for="email">Correo Electronico</label>
+          <input type="email" 
+          id="email" 
+          name="email" 
+          placeholder="1004220232@unajma.edu.pe" 
+          required>
+        </div>
+
+        <div class="form-asunto">
+          <label for="asunto">Asunto</label>
+          <input type="text" 
+          id="asunto" 
+          name="asunto" 
+          placeholder="cual es el motivo" 
+          required>
+        </div>
+
+        <div class="form-sms">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" 
+          name="mensaje" 
+          rows="6" 
+          placeholder="escribe tu mensaje aqui..." 
+          required></textarea>
+        </div>
+
+        <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+        <p class="nota-respuesta">Atención las 24 horas del día Lunes a Viernes.</p>
+      </form>
+    </div>
+
+
+
+    <div class="info-contacto">
+      <h2>Información de Contacto</h2>
+      
+      <div class="item-gmail">
+        <div class="icono-contacto">
+        </div>
+        <div class="detalle-contacto">
+          <p><strong>Correo Electronico</strong></p>
+          <a href="">1004220232@unajma.edu.pe</a>
+        </div>
+      </div>
+
+      <div class="item-telefono">
+        <div class="icono-contacto">
+        </div>
+        <div class="detalle-contacto">
+          <h3>Telefono</h3>
+          <a href="">+51 979 524 129 </a>
+        </div>
+      </div>
+
+      <div class="item-ubicacion">
+        <div class="icono-contacto">
+        </div>
+        <div class="detalle-contacto">
+          <h3>Ubicación</h3>
+          <p>Andahuaylas, Apurímac, Perú</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

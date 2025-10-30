@@ -1,0 +1,73 @@
+/*fonde del principal*/
+.contenido {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* titulo sobre mi*/
+.intro h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+/*sobre mi texto*/
+.descripcion-principal {
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+/* linea del detalle */
+.seccion-detalles {
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #280364;
+}
+/*encabezado de la*/
+.seccion-detalles h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+/*palabra de introduccion*/
+.seccion-detalles p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Cualidades */
+.cualidades {
+    margin-bottom: 40px;
+}
+.cualidades li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Botones principales */
+.botones-principales {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-principal {
+    background-color: #280364;
+    color: #fdfafa;
+    text-decoration: none;
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+}

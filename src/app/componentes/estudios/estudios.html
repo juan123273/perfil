@@ -1,0 +1,32 @@
+<main class="contenido-estudios">
+  <div class="encabezado">
+    <div class="foto_estudios">
+      <img src="imagen/fotoestudio.jpg" alt="Foto de Estudio" class="Estudio" />
+    </div>
+    <h1>Soy estudiante de Ingeniería de Sistemas</h1>
+  </div>
+
+  <h2>Mi Horario de Clases</h2>
+  <table class="tabla-horario">
+    <thead>
+      <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of horarios">
+        <td>{{ row.hora }}</td>
+        <td>{{ row.Lunes }}</td>
+        <td>{{ row.Martes }}</td>
+        <td>{{ row.Miercoles }}</td>
+        <td>{{ row.Jueves }}</td>
+        <td>{{ row.Viernes }}</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
