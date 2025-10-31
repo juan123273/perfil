@@ -31,11 +31,11 @@
     margin-bottom: 15px;
 }
 
-/* Grid de videos en formato 2x2 */
+/* orden de video*/
 .videos-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
-    gap: 30px; /* Espacio entre videos */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px; 
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
@@ -63,18 +63,6 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(227, 6, 6, 0.2);
-}
-
-/* Responsivo para tablets */
-@media (max-width: 968px) {
-    .videos-grid {
-        grid-template-columns: 1fr; /* 1 columna en tablets */
-        gap: 20px;
-    }
-    
-    .video-item video {
-        max-width: 100%;
-    }
 }
 
 /* Responsivo para celulares */

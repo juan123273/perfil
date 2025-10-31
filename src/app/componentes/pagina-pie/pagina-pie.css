@@ -51,8 +51,3 @@
     background-color: #010101;
 }
 
-/* Hover */
-.btn-footer:hover {
-    transform: translateY(-3px);
-    filter: brightness(0.85);
-}

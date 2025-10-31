@@ -27,7 +27,7 @@
   background:#fff;
 }
 
-/* celdas con borde como la imagen (grueso) */
+/*celdas con borde como la imagen*/
 .tabla-horario td {
   border: 3px solid #20046c;
   padding: 14px;
